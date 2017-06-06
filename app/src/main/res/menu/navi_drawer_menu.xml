@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/itemMyPost"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="My Posts" />
+        <item
+            android:id="@+id/itemLikedPost"
+            android:icon="@drawable/ic_thumb_up_black_24dp"
+            android:title="Liked Posts" />
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/itemLogout"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Log Out" />
+        </menu>
+    </item>
+</menu>
